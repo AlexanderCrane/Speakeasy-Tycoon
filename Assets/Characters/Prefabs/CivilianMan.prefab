@@ -2472,7 +2472,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c242a8df755c1854ab144b416305726e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  testingDestination: {fileID: 0}
+  targetDestination: {fileID: 0}
 --- !u!95 &8570703148753577991
 Animator:
   serializedVersion: 4
@@ -2559,7 +2559,7 @@ NavMeshAgent:
   m_Height: 2
   m_BaseOffset: 0
   m_WalkableMask: 4294967295
-  m_ObstacleAvoidanceType: 4
+  m_ObstacleAvoidanceType: 0
 --- !u!1 &8570703148746265573
 GameObject:
   m_ObjectHideFlags: 0
