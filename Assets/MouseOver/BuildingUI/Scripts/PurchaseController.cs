@@ -7,6 +7,7 @@ public class PurchaseController : MonoBehaviour
 {
     public enum PurchaseType {none, speakeasy, distillery}
     public BuildingUICanvasController buildingUICanvasController;
+    public BuildingUIContentController buildingUIContentController;
     public TMP_Dropdown buildingTypeDropdown;
     int purchaseType;
 
@@ -20,6 +21,7 @@ public class PurchaseController : MonoBehaviour
     {
         BuildingProperties buildingProperties = buildingUICanvasController.buildingUIObject.currentSelectedBuildingProperties;
         buildingProperties.PurchaseBuilding();
+        buildingUIContentController.fillContent(buildingProperties.GetComponent<MouseOver>().gatherContent(buildingProperties));
         this.gameObject.SetActive(!buildingProperties.active);
     }
 }

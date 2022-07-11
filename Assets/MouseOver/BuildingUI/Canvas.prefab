@@ -1023,6 +1023,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   buildingUICanvasController: {fileID: 8582316955835242243}
+  buildingUIContentController: {fileID: 8582316955919292617}
   buildingTypeDropdown: {fileID: 3961741008455627338}
 --- !u!1 &4657622802248133688
 GameObject:
@@ -1837,8 +1838,8 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 8582316955827815238}
   m_HandleRect: {fileID: 8582316955827815237}
   m_Direction: 2
-  m_Value: 1
-  m_Size: 1
+  m_Value: 0
+  m_Size: 0.5
   m_NumberOfSteps: 0
   m_OnValueChanged:
     m_PersistentCalls:

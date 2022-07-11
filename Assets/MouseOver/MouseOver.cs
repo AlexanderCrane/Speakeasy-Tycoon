@@ -56,7 +56,7 @@ public class MouseOver : MonoBehaviour, IPointerEnterHandler, IPointerExitHandle
         this.outline = outline;
     }
 
-    List<string> gatherContent(BuildingProperties buildingProperties)
+    public List<string> gatherContent(BuildingProperties buildingProperties)
     {
         switch (buildingProperties.buildingState)
         {
