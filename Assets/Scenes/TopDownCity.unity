@@ -7132,11 +7132,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4097269216245594717, guid: 2e560bc90c0621641b633a080836196e, type: 3}
       propertyPath: rentCost
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4097269216245594717, guid: 2e560bc90c0621641b633a080836196e, type: 3}
       propertyPath: upfrontCost
-      value: 10
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2e560bc90c0621641b633a080836196e, type: 3}
@@ -37155,6 +37155,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8582316955827815237, guid: 7ab887c382318db46a1f8156c11ba091, type: 3}
       propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8582316955827815237, guid: 7ab887c382318db46a1f8156c11ba091, type: 3}
+      propertyPath: m_AnchorMin.y
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8582316955835242240, guid: 7ab887c382318db46a1f8156c11ba091, type: 3}
