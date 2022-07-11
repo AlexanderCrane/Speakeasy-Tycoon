@@ -15,6 +15,14 @@ public class SceneLoader : MonoBehaviour
         SceneManager.sceneLoaded += OnSceneLoaded;
     }
 
+    public void LoadOtherScenes()
+    {
+        foreach (string scene in additionalScenesToLoad)
+        {
+            SceneManager.LoadSceneAsync(scene, LoadSceneMode.Additive);
+        }
+    }
+
     public void LoadAdditiveScenes(string nextActiveScene)
     {
         this.nextActiveScene = nextActiveScene;
