@@ -6,6 +6,7 @@ public class BuildingUICanvasController : MonoBehaviour
 {
     public BuildingUIContentController contentController;
     public BuildingUIObject buildingUIObject;
+    public PurchaseController purchaseController;
 
     // Start is called before the first frame update
     void Start()

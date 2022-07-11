@@ -6,4 +6,7 @@ using UnityEngine;
 public class BuildingUIObject : ScriptableObject
 {
     public Transform buildingUICanvasTransform;
+    
+    [HideInInspector]
+    public BuildingProperties currentSelectedBuildingProperties;
 }

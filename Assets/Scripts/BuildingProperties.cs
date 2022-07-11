@@ -42,7 +42,7 @@ public class BuildingProperties : MonoBehaviour
 
     }
 
-    public void TypeChanged()
+    public void ChangeType()
     {
         int type = myDropDown.value;
         if(type == 0)

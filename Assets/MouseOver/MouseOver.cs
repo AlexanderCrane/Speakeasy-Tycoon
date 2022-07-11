@@ -29,8 +29,14 @@ public class MouseOver : MonoBehaviour, IPointerEnterHandler, IPointerExitHandle
 
         BuildingUIContentController buildingUIContentController = canvasTransform.GetComponent<BuildingUICanvasController>().contentController;
         BuildingProperties buildingProperties = GetComponent<BuildingProperties>();
+        buildingUIObject.currentSelectedBuildingProperties = buildingProperties;
         if (buildingProperties != null)
         {
+            PurchaseController purchaseController = canvasTransform.GetComponent<BuildingUICanvasController>().purchaseController;
+            GameObject purchaseControllerGameObject = purchaseController.gameObject;
+            purchaseControllerGameObject.SetActive(!buildingProperties.active);
+            purchaseController.buildingTypeDropdown.value = (int)buildingProperties.buildingState;
+            buildingProperties.myDropDown = purchaseController.buildingTypeDropdown;
             buildingUIContentController.fillContent(gatherContent(buildingProperties));
         }
         else
@@ -71,25 +77,25 @@ public class MouseOver : MonoBehaviour, IPointerEnterHandler, IPointerExitHandle
     List<string> gatherUnpurchasedContent(BuildingProperties buildingProperties)
     {
         List<string> content = new List<string>();
-        content.Add("Unpurchased \n");
-        content.Add("Upfront Cost: " + buildingProperties.upfrontCost + "\n");
-        content.Add("Rent Cost: " + buildingProperties.rentCost + "\n");
+        content.Add("Unpurchased");
+        content.Add("Upfront Cost: " + buildingProperties.upfrontCost);
+        content.Add("Rent Cost: " + buildingProperties.rentCost);
         return content;
     }
 
     List<string> gatherSpeakeasyContent(BuildingProperties buildingProperties)
     {
         List<string> content = new List<string>();
-        content.Add("Speakeasy \n");
-        content.Add("Drink Price: " + buildingProperties.drinkPrice + "\n");
+        content.Add("Speakeasy");
+        content.Add("Drink Price: " + buildingProperties.drinkPrice);
         return content;
     }
 
     List<string> gatherDistilleryContent(BuildingProperties buildingProperties)
     {
         List<string> content = new List<string>();
-        content.Add("Distillery \n");
-        content.Add("Alcohol Stores: " + buildingProperties.alcoholStores + "\n");
+        content.Add("Distillery");
+        content.Add("Alcohol Stores: " + buildingProperties.alcoholStores);
         return content;
     }
 }
