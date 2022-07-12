@@ -14,8 +14,9 @@ public class PoliceCarController : MonoBehaviour
     void Start()
     {
         agent = GetComponent<NavMeshAgent>();
-        agent.destination = transform.position; 
+        agent.destination = targetDestination.position; 
         policeCarSpawner = GameObject.FindGameObjectWithTag("PoliceSpawner").GetComponent<PoliceCarSpawner>();
+        Debug.Log("Agent destination: " + agent.destination.ToString());
     }
 
     public void ChangeDestination(Transform newDestination)
@@ -45,7 +46,7 @@ public class PoliceCarController : MonoBehaviour
         else if(other == targetCollider)
         {
             policeCarSpawner.policeCarReachedDestination();
-            // Destroy(this.gameObject);
+            Destroy(this.gameObject);
         }
     }
 
