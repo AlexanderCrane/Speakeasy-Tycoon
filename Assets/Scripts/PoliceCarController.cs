@@ -6,7 +6,6 @@ using UnityEngine.AI;
 public class PoliceCarController : MonoBehaviour
 {
     public Transform targetDestination;
-    private Transform storedDestination;
     public GameObject canvas;
     public Collider targetCollider;
     private NavMeshAgent agent;
@@ -47,9 +46,8 @@ public class PoliceCarController : MonoBehaviour
                     buildingProperties.alcoholStores = 0;
                     canvas.SetActive(true);
                     StartCoroutine(waitToDisableCanvas());
-                    // storedDestination = targetDestination;
-                    // ChangeDestination(buildingProperties.truckSpawnLocation.transform);
-                    // StartCoroutine(conductRaid());
+                    agent.destination = buildingProperties.truckSpawnLocation.transform.position;
+                    StartCoroutine(conductRaid());
                 }
             }
         }
@@ -69,8 +67,8 @@ public class PoliceCarController : MonoBehaviour
     public IEnumerator conductRaid()
     {
         raidSound.Play();
-        yield return new WaitForSeconds(2f);
-        agent.destination = storedDestination.transform.position;
+        yield return new WaitForSeconds(4f);
+        agent.destination = targetDestination.transform.position;
     }
 
 }
