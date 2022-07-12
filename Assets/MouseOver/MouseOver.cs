@@ -102,7 +102,9 @@ public class MouseOver : MonoBehaviour, IPointerEnterHandler, IPointerExitHandle
     {
         List<string> content = new List<string>();
         content.Add("Speakeasy");
-        content.Add("Drink Price: " + buildingProperties.drinkPrice);
+        content.Add("Drink Price: $" + buildingProperties.drinkPrice);
+        content.Add("Alcohol Stores: " + buildingProperties.alcoholStores);
+        content.Add("Total Profit: $" + buildingProperties.moneyMadeSoFar);
         return content;
     }
 
@@ -111,6 +113,9 @@ public class MouseOver : MonoBehaviour, IPointerEnterHandler, IPointerExitHandle
         List<string> content = new List<string>();
         content.Add("Distillery");
         content.Add("Alcohol Stores: " + buildingProperties.alcoholStores);
+        content.Add("Number of cars: " + buildingProperties.numCars);
+        content.Add("Cars in use: " + buildingProperties.numCarsBusy);
+        content.Add("Alcohol Produced: " + buildingProperties.alcoholProducedSoFar);
         return content;
     }
 }
