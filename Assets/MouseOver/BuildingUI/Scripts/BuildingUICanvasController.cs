@@ -5,16 +5,14 @@ using UnityEngine;
 public class BuildingUICanvasController : MonoBehaviour
 {
     public BuildingUIContentController contentController;
-    public BuildingUIObject buildingUIObject;
     public PurchaseController purchaseController;
 
     // Start is called before the first frame update
     void Start()
     {
-        buildingUIObject.buildingUICanvasTransform = this.transform;
         GetComponent<Canvas>().worldCamera = Camera.main;
         faceCamera();
-        this.gameObject.SetActive(false);
+        // this.gameObject.SetActive(false);
     }
 
     public void faceCamera()

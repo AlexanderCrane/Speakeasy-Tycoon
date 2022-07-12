@@ -5,14 +5,14 @@ using UnityEngine.EventSystems;
 
 public class MouseOver : MonoBehaviour, IPointerEnterHandler, IPointerExitHandler, IPointerDownHandler
 {
-    public BuildingUIObject buildingUIObject;
-
+    GameObject buildingCanvas;
     public float floatHoverHeight = 20.0f;
     Outline outline;
 
     void Start()
     {
         outline.enabled = false;
+        buildingCanvas = GameObject.Find("BuildingCanvas");
     }
 
     void IPointerEnterHandler.OnPointerEnter(UnityEngine.EventSystems.PointerEventData eventData)
@@ -22,18 +22,18 @@ public class MouseOver : MonoBehaviour, IPointerEnterHandler, IPointerExitHandle
 
     void IPointerDownHandler.OnPointerDown(UnityEngine.EventSystems.PointerEventData eventData)
     {
-        Transform canvasTransform = buildingUIObject.buildingUICanvasTransform;
+        Transform canvasTransform = buildingCanvas.transform;
         Vector3 thisPosition = this.transform.position;
         canvasTransform.gameObject.SetActive(true);
         canvasTransform.transform.position = new Vector3(thisPosition.x, thisPosition.y + floatHoverHeight, thisPosition.z);
 
         BuildingUIContentController buildingUIContentController = canvasTransform.GetComponent<BuildingUICanvasController>().contentController;
         BuildingProperties buildingProperties = GetComponent<BuildingProperties>();
-        buildingUIObject.currentSelectedBuildingProperties = buildingProperties;
         if (buildingProperties != null)
         {
             PurchaseController purchaseController = canvasTransform.GetComponent<BuildingUICanvasController>().purchaseController;
             GameObject purchaseControllerGameObject = purchaseController.gameObject;
+            purchaseController.buildingProperties = buildingProperties;
             purchaseController.hidePanel.SetActive(buildingProperties.active);
             purchaseControllerGameObject.SetActive(!buildingProperties.active);
             purchaseController.buildingTypeDropdown.value = (int)buildingProperties.buildingState;

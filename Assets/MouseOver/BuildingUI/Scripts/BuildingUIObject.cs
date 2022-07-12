@@ -5,8 +5,4 @@ using UnityEngine;
 [CreateAssetMenu(fileName = "BuildingUIData", menuName = "ScriptableObjects/BuildingUIScriptableObject", order = 1)]
 public class BuildingUIObject : ScriptableObject
 {
-    public Transform buildingUICanvasTransform;
-    
-    [HideInInspector]
-    public BuildingProperties currentSelectedBuildingProperties;
 }
