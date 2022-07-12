@@ -35,11 +35,11 @@ public class BuildingProperties : MonoBehaviour
         resourceManager = GameObject.Find("ResourceManager").GetComponent<ResourceManagement>();
 
         //REMOVE THIS AFTER TESTING
-        if(buildingState == BuildingState.distillery)
-        {
-            StartCoroutine(spawnVehicleAfterTime());
-            StartCoroutine(produceAlcohol());
-        }
+        // if(buildingState == BuildingState.distillery)
+        // {
+        //     StartCoroutine(spawnVehicleAfterTime());
+        //     StartCoroutine(produceAlcohol());
+        // }
 
     }
 
@@ -147,7 +147,7 @@ public class BuildingProperties : MonoBehaviour
 
     private void SpawnVehicle()
     {
-        if(numCarsBusy < numCars && alcoholStores > 0 && active)
+        if(numCarsBusy < numCars && alcoholStores > 0 && active && resourceManager.speakeasyList.Count > 0)
         {
             numCarsBusy++;
             alcoholStores--;

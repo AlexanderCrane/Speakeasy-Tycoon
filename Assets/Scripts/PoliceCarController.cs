@@ -6,6 +6,7 @@ using UnityEngine.AI;
 public class PoliceCarController : MonoBehaviour
 {
     public Transform targetDestination;
+    public GameObject canvas;
     public Collider targetCollider;
     private NavMeshAgent agent;
     private PoliceCarSpawner policeCarSpawner;
@@ -13,6 +14,7 @@ public class PoliceCarController : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        canvas.SetActive(false); 
         agent = GetComponent<NavMeshAgent>();
         agent.destination = targetDestination.position; 
         policeCarSpawner = GameObject.FindGameObjectWithTag("PoliceSpawner").GetComponent<PoliceCarSpawner>();
@@ -36,10 +38,12 @@ public class PoliceCarController : MonoBehaviour
             BuildingProperties buildingProperties = other.gameObject.GetComponent<BuildingProperties>();
             if(buildingProperties.buildingState == BuildingProperties.BuildingState.distillery || buildingProperties.buildingState == BuildingProperties.BuildingState.speakeasy)
             {
-                if(buildingProperties.active)
+                if(buildingProperties.active && buildingProperties.alcoholStores > 0)
                 {
                     Debug.Log("Alcohol confiscated!");
                     buildingProperties.alcoholStores = 0;
+                    canvas.SetActive(true);
+                    StartCoroutine(waitToDisableCanvas());
                 }
             }
         }
@@ -48,6 +52,12 @@ public class PoliceCarController : MonoBehaviour
             policeCarSpawner.policeCarReachedDestination();
             Destroy(this.gameObject);
         }
+    }
+
+    private IEnumerator waitToDisableCanvas()
+    {
+        yield return new WaitForSeconds(2f);
+            canvas.SetActive(false);
     }
 
 }
