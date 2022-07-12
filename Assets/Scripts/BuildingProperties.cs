@@ -12,19 +12,20 @@ public class BuildingProperties : MonoBehaviour
     public TMP_Dropdown myDropDown;
     public float alcoholProductionInterval;
     public ResourceManagement resourceManager;
-    public float drinkPrice = 10f;
     public  Collider entranceTrigger;
     public GameObject deliveryTruckPrefab;
     public GameObject truckSpawnLocation;
     public BuildingState buildingState = BuildingState.unpurchased;
     public bool active = false;
-    public int alcoholStores = 0;
-
-    [SerializeField]
-    private int numCars = 1;
-    [SerializeField]
-    private int numCarsBusy = 0;
     private float customerChanceOfEntering;
+
+    // These should be displayed in building UI
+    public int alcoholStores = 0;
+    public int numCars = 1; //only display if distillery
+    public int numCarsBusy = 0; //only display if distillery
+    public int alcoholProducedSoFar = 0; //only display if distillery
+    public float moneyMadeSoFar = 0f; //only display if speakeasy
+    public float drinkPrice = 10f; //only display if speakeasy
 
     // Start is called before the first frame update
     void Start()

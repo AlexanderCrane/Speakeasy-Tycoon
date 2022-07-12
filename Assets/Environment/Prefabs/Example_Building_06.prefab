@@ -15396,7 +15396,7 @@ MonoBehaviour:
   upfrontCost: 0
   rentCost: 0
   myDropDown: {fileID: 0}
-  alcoholProductionInterval: 0
+  alcoholProductionInterval: 10
   resourceManager: {fileID: 0}
   drinkPrice: 10
   entranceTrigger: {fileID: 0}
