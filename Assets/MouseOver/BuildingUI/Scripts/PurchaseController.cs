@@ -11,6 +11,7 @@ public class PurchaseController : MonoBehaviour
     public TMP_Dropdown buildingTypeDropdown;
 
     public GameObject hidePanel;
+    public GameObject reopenPanel;
 
     public BuildingProperties buildingProperties;
     int purchaseType;
@@ -27,5 +28,15 @@ public class PurchaseController : MonoBehaviour
         buildingUIContentController.fillContent(buildingProperties.GetComponent<MouseOver>().gatherContent(buildingProperties));
         hidePanel.SetActive(buildingProperties.active);
         this.gameObject.SetActive(!buildingProperties.active);
+    }
+
+    public void setInactive()
+    {
+        buildingProperties.active = false;
+    }
+
+    public void setActive()
+    {
+        buildingProperties.active = true;
     }
 }

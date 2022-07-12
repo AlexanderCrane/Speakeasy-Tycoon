@@ -35,7 +35,8 @@ public class MouseOver : MonoBehaviour, IPointerEnterHandler, IPointerExitHandle
             GameObject purchaseControllerGameObject = purchaseController.gameObject;
             purchaseController.buildingProperties = buildingProperties;
             purchaseController.hidePanel.SetActive(buildingProperties.active);
-            purchaseControllerGameObject.SetActive(!buildingProperties.active);
+            purchaseController.reopenPanel.SetActive(!buildingProperties.active && buildingProperties.buildingState != BuildingProperties.BuildingState.unpurchased);
+            purchaseControllerGameObject.SetActive(!buildingProperties.active && buildingProperties.buildingState == BuildingProperties.BuildingState.unpurchased);
             purchaseController.buildingTypeDropdown.value = (int)buildingProperties.buildingState;
             buildingProperties.myDropDown = purchaseController.buildingTypeDropdown;
             buildingUIContentController.fillContent(gatherContent(buildingProperties));
