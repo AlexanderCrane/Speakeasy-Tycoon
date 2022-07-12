@@ -17,6 +17,7 @@ public class BuildingProperties : MonoBehaviour
     public GameObject truckSpawnLocation;
     public BuildingState buildingState = BuildingState.unpurchased;
     public bool active = false;
+    public GameObject canvas;
     private float customerChanceOfEntering;
 
     // These should be displayed in building UI
@@ -34,12 +35,7 @@ public class BuildingProperties : MonoBehaviour
         customerChanceOfEntering = 100f - (drinkPrice-9f);
         resourceManager = GameObject.Find("ResourceManager").GetComponent<ResourceManagement>();
 
-        //REMOVE THIS AFTER TESTING
-        if(buildingState == BuildingState.distillery)
-        {
-            StartCoroutine(spawnVehicleAfterTime());
-            StartCoroutine(produceAlcohol());
-        }
+        canvas.SetActive(false);
 
     }
 
@@ -101,6 +97,9 @@ public class BuildingProperties : MonoBehaviour
                 if(alcoholStores > 0)
                 {
                     alcoholStores--;
+                    moneyMadeSoFar += drinkPrice;
+                    canvas.SetActive(true);
+                    StartCoroutine(waitToDisableCanvas());
                     resourceManager.MakeMoney(drinkPrice);
                 }
             }
@@ -147,7 +146,7 @@ public class BuildingProperties : MonoBehaviour
 
     private void SpawnVehicle()
     {
-        if(numCarsBusy < numCars && alcoholStores > 0 && active)
+        if(numCarsBusy < numCars && alcoholStores > 0 && active && resourceManager.speakeasyList.Count > 0)
         {
             numCarsBusy++;
             alcoholStores--;
@@ -176,6 +175,7 @@ public class BuildingProperties : MonoBehaviour
         if(active)
         {
             alcoholStores++;
+            alcoholProducedSoFar++;
         }
         StartCoroutine(produceAlcohol());
     }
@@ -183,7 +183,7 @@ public class BuildingProperties : MonoBehaviour
     private IEnumerator spawnVehicleAfterTime()
     {
         yield return new WaitForSeconds(5f);
-        if(active)
+        if(active && alcoholStores > 0)
         {
             SpawnVehicle();
         }
@@ -204,4 +204,11 @@ public class BuildingProperties : MonoBehaviour
         yield return new WaitForSeconds(2f);
         entranceTrigger.enabled = true;
     }
+
+    private IEnumerator waitToDisableCanvas()
+    {
+        yield return new WaitForSeconds(2f);
+            canvas.SetActive(false);
+    }
+
 }
