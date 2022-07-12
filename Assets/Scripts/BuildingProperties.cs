@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
 using UnityEngine.AI;
+using UnityEngine.Playables;
 
 public class BuildingProperties : MonoBehaviour
 {
@@ -29,6 +30,8 @@ public class BuildingProperties : MonoBehaviour
     public float moneyMadeSoFar = 0f; //only display if speakeasy
     public float drinkPrice = 10f; //only display if speakeasy
 
+    public PlayableDirector playableDirector;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -37,7 +40,7 @@ public class BuildingProperties : MonoBehaviour
         // entranceTrigger.gameObject.SetActive(false);
         customerChanceOfEntering = 100f - (drinkPrice-9f);
         resourceManager = GameObject.Find("ResourceManager").GetComponent<ResourceManagement>();
-
+        playableDirector = GameObject.FindGameObjectWithTag("PouringSound").GetComponent<PlayableDirector>();
         canvas.SetActive(false);
     }
 
@@ -177,6 +180,7 @@ public class BuildingProperties : MonoBehaviour
         yield return new WaitForSeconds(alcoholProductionInterval);
         if(active)
         {
+            playableDirector.Play();
             alcoholStores++;
             alcoholProducedSoFar++;
         }
