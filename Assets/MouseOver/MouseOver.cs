@@ -23,7 +23,7 @@ public class MouseOver : MonoBehaviour, IPointerEnterHandler, IPointerExitHandle
         if (buildingUIContentController != null && purchaseController != null && purchaseController.buildingProperties == GetComponent<BuildingProperties>())
         {
             BuildingProperties buildingProperties = GetComponent<BuildingProperties>();
-            if (!buildingProperties.active && buildingProperties.buildingState == BuildingProperties.BuildingState.unpurchased)
+            if (buildingProperties.active && buildingProperties.buildingState != BuildingProperties.BuildingState.unpurchased)
             {
                 buildingUIContentController.fillContent(gatherContent(purchaseController.buildingProperties));
             }
