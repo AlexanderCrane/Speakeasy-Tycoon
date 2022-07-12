@@ -101,6 +101,7 @@ public class BuildingProperties : MonoBehaviour
                 if(alcoholStores > 0)
                 {
                     alcoholStores--;
+                    moneyMadeSoFar += drinkPrice;
                     resourceManager.MakeMoney(drinkPrice);
                 }
             }
@@ -176,6 +177,7 @@ public class BuildingProperties : MonoBehaviour
         if(active)
         {
             alcoholStores++;
+            alcoholProducedSoFar++;
         }
         StartCoroutine(produceAlcohol());
     }
@@ -183,7 +185,7 @@ public class BuildingProperties : MonoBehaviour
     private IEnumerator spawnVehicleAfterTime()
     {
         yield return new WaitForSeconds(5f);
-        if(active)
+        if(active && alcoholStores > 0)
         {
             SpawnVehicle();
         }
