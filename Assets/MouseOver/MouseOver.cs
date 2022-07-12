@@ -6,7 +6,7 @@ using UnityEngine.EventSystems;
 public class MouseOver : MonoBehaviour, IPointerEnterHandler, IPointerExitHandler, IPointerDownHandler
 {
     GameObject buildingCanvas;
-    public float floatHoverHeight = 20.0f;
+    public float floatHoverHeight = 18.0f;
     Outline outline;
 
     private PurchaseController purchaseController;

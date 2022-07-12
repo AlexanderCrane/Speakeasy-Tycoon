@@ -2204,7 +2204,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1306537217690880067}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 20.16, y: 0, z: -4.5}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -2651,7 +2651,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1306537218308340961}
   m_LocalRotation: {x: -0, y: -0.7071068, z: -0, w: 0.7071068}
-  m_LocalPosition: {x: -37, y: 1.67, z: 2.4}
+  m_LocalPosition: {x: -16.84, y: 1.67, z: -2.1}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -19560,12 +19560,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c34853bf71d8edf4a8cbcf6a86e5dc9e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  upfrontCost: 0
-  rentCost: 0
+  upfrontCost: 40
+  rentCost: 60
   myDropDown: {fileID: 0}
   alcoholProductionInterval: 10
   resourceManager: {fileID: 0}
-  drinkPrice: 25
   entranceTrigger: {fileID: 0}
   deliveryTruckPrefab: {fileID: 796784900305081545, guid: b8458e2ecc5936d42bfcad0495b3ddcc, type: 3}
   truckSpawnLocation: {fileID: 1306537218308340961}
@@ -19574,6 +19573,9 @@ MonoBehaviour:
   alcoholStores: 0
   numCars: 1
   numCarsBusy: 0
+  alcoholProducedSoFar: 0
+  moneyMadeSoFar: 0
+  drinkPrice: 25
 --- !u!114 &3855748765840236221
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -19603,8 +19605,8 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 9.046095, y: 7.7419906, z: 1.0000002}
-  m_Center: {x: -34.023067, y: 3.3709953, z: 2.55}
+  m_Size: {x: 10.268737, y: 7.7419906, z: 1.0000002}
+  m_Center: {x: -13.1, y: 3.3709953, z: -1.91}
 --- !u!54 &3855748765840236163
 Rigidbody:
   m_ObjectHideFlags: 0
