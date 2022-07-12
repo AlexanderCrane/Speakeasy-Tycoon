@@ -15,7 +15,7 @@ GameObject:
   m_Name: Windows_Glass_06 (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &5392986559907344426
@@ -98,7 +98,7 @@ GameObject:
   m_Name: Windows_Frame_Wood_00 (13)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &1683487382341401595
@@ -181,7 +181,7 @@ GameObject:
   m_Name: Ceiling_Wood_00 (13)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &5666678345359764382
@@ -264,7 +264,7 @@ GameObject:
   m_Name: Floor_Wood_00 (12)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &6739809512686520333
@@ -347,7 +347,7 @@ GameObject:
   m_Name: Wall_Concrete_Detail_03 (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &5037769190396842177
@@ -430,7 +430,7 @@ GameObject:
   m_Name: Ceiling_Wood_00 (6)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &5480096200216177590
@@ -513,7 +513,7 @@ GameObject:
   m_Name: Roof_03 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &9108075190038029282
@@ -596,7 +596,7 @@ GameObject:
   m_Name: Windows_Frame_Wood_00 (22)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &1540711836361589581
@@ -679,7 +679,7 @@ GameObject:
   m_Name: Ceiling_Wood_00 (20)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &5420825406137095284
@@ -762,7 +762,7 @@ GameObject:
   m_Name: Windows_Glass_01 (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &3843634687821480330
@@ -845,7 +845,7 @@ GameObject:
   m_Name: Windows_Frame_Wood_00 (24)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &1419734469656490318
@@ -928,7 +928,7 @@ GameObject:
   m_Name: Windows_Glass_06
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &5677067221476859999
@@ -1011,7 +1011,7 @@ GameObject:
   m_Name: Building_Column_03_Roof 1 (15)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &1527716095719685471
@@ -1094,7 +1094,7 @@ GameObject:
   m_Name: Floor_Wood_00 (39)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &6504561297890133161
@@ -1177,7 +1177,7 @@ GameObject:
   m_Name: Roof_01 (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &8344807875027417233
@@ -1260,7 +1260,7 @@ GameObject:
   m_Name: Building_Wall_05_Foundation 1 (7)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &3497111818057783192
@@ -1343,7 +1343,7 @@ GameObject:
   m_Name: Building_Column_00_Foundation 1 (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &3892744059526061926
@@ -1426,7 +1426,7 @@ GameObject:
   m_Name: Windows_Frame_Wood_00 (21)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &2077817688748092853
@@ -1509,7 +1509,7 @@ GameObject:
   m_Name: Roof_00 (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &5608138861645229301
@@ -1592,7 +1592,7 @@ GameObject:
   m_Name: Ceiling_Concrete_01 (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &5895514924187617608
@@ -1675,7 +1675,7 @@ GameObject:
   m_Name: Props_00_Lamp_Glass_00
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &1002246664431584539
@@ -1758,7 +1758,7 @@ GameObject:
   m_Name: Roof_00 (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &5538180592948012594
@@ -1841,7 +1841,7 @@ GameObject:
   m_Name: Windows_Glass_05
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &7900437173788824351
@@ -1924,7 +1924,7 @@ GameObject:
   m_Name: Floor_Wood_00 (19)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &6329115521957594102
@@ -2007,7 +2007,7 @@ GameObject:
   m_Name: Floor_Wood_00 (22)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &5811003650981352253
@@ -2090,7 +2090,7 @@ GameObject:
   m_Name: Building_Column_00_Foundation 1 (5)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &3668264019365735277
@@ -2173,7 +2173,7 @@ GameObject:
   m_Name: Wall_Concrete_Detail_03 (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &5301710213754832881
@@ -2256,7 +2256,7 @@ GameObject:
   m_Name: Ceiling_Wood_00 (7)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &4733245901215980839
@@ -2339,7 +2339,7 @@ GameObject:
   m_Name: Building_Column_03_Roof 1 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &2144894013413562311
@@ -2422,7 +2422,7 @@ GameObject:
   m_Name: Windows_Frame_Wood_00 (26)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &1761130116485980276
@@ -2505,7 +2505,7 @@ GameObject:
   m_Name: Ceiling_Wood_00 (10)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &4613107727098546798
@@ -2588,7 +2588,7 @@ GameObject:
   m_Name: Windows_Frame_Wood_00 (12)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &1851040111025449041
@@ -2671,7 +2671,7 @@ GameObject:
   m_Name: Roof_01
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &8855032490776088932
@@ -2754,7 +2754,7 @@ GameObject:
   m_Name: Building_Column_03_Roof 1 (18)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &2076752671434655500
@@ -2837,7 +2837,7 @@ GameObject:
   m_Name: Windows_Frame_Wood_00 (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &483186240918061913
@@ -2920,7 +2920,7 @@ GameObject:
   m_Name: Windows_Glass_05 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &8522097751268776248
@@ -3003,7 +3003,7 @@ GameObject:
   m_Name: Props_00_Lamp_00
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &783854412492734379
@@ -3087,7 +3087,7 @@ GameObject:
   m_Name: Floor_Wood_00 (13)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &5555444855150103416
@@ -3170,7 +3170,7 @@ GameObject:
   m_Name: Windows_Frame_Wood_00 (8)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &528287384495545206
@@ -3253,7 +3253,7 @@ GameObject:
   m_Name: Ceiling_Concrete_01 (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &5288317436983458094
@@ -3336,7 +3336,7 @@ GameObject:
   m_Name: Foundations_1M_Concrete_01 (14)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &5836296961864424736
@@ -3419,7 +3419,7 @@ GameObject:
   m_Name: Floor_Wood_00 (6)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &5667865934892113738
@@ -3500,7 +3500,7 @@ GameObject:
   m_Name: Lamp_00_On (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &1359397339159198752
@@ -3534,7 +3534,7 @@ GameObject:
   m_Name: Floor_Wood_00 (27)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &5695623646131631352
@@ -3617,7 +3617,7 @@ GameObject:
   m_Name: Roof_03 (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &7981647010423092801
@@ -3700,7 +3700,7 @@ GameObject:
   m_Name: Windows_Glass_08 (5)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &7382724781023835676
@@ -3783,7 +3783,7 @@ GameObject:
   m_Name: Foundations_1M_Concrete_01 (20)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &6248596337884826726
@@ -3866,7 +3866,7 @@ GameObject:
   m_Name: Building_Wall_05_Foundation 1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &2531849030278265483
@@ -3949,7 +3949,7 @@ GameObject:
   m_Name: Floor_Wood_00 (41)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &5219516907046729896
@@ -4032,7 +4032,7 @@ GameObject:
   m_Name: Roof_02 (5)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &4848669588796526087
@@ -4115,7 +4115,7 @@ GameObject:
   m_Name: Roof_02
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &4803635883974818453
@@ -4198,7 +4198,7 @@ GameObject:
   m_Name: Floor_Wood_00 (9)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &5280690541192056968
@@ -4281,7 +4281,7 @@ GameObject:
   m_Name: Roof_03 (11)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &7728755505916328964
@@ -4364,7 +4364,7 @@ GameObject:
   m_Name: Windows_Glass_01
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &2841959994196773581
@@ -4447,7 +4447,7 @@ GameObject:
   m_Name: Wall_Concrete_Detail_02 (7)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &1238169129185436949
@@ -4530,7 +4530,7 @@ GameObject:
   m_Name: Ceiling_Concrete_01 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &5541203666041406581
@@ -4613,7 +4613,7 @@ GameObject:
   m_Name: Windows_Glass_06 (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &6678269639755455183
@@ -4696,7 +4696,7 @@ GameObject:
   m_Name: Floor_Wood_00 (18)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &4930105314236710237
@@ -4779,7 +4779,7 @@ GameObject:
   m_Name: Floor_Wood_00 (30)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &4920881946089134815
@@ -4862,7 +4862,7 @@ GameObject:
   m_Name: Building_Column_03_Roof 1 (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &853775608211573286
@@ -4945,7 +4945,7 @@ GameObject:
   m_Name: Floor_Wood_00 (26)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &4964708578201707216
@@ -5028,7 +5028,7 @@ GameObject:
   m_Name: Building_Wall_05_Foundation 1 (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &3342297122630040556
@@ -5111,7 +5111,7 @@ GameObject:
   m_Name: Wall_Concrete_Detail_02 (5)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &2298295477342025133
@@ -5194,7 +5194,7 @@ GameObject:
   m_Name: Floor_Wood_00 (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &5019281968399363179
@@ -5277,7 +5277,7 @@ GameObject:
   m_Name: Building_Wall_01_Foundation 1 (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &8926684166124816702
@@ -5360,7 +5360,7 @@ GameObject:
   m_Name: Roof_03 (10)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &7447456634333469886
@@ -5443,7 +5443,7 @@ GameObject:
   m_Name: Floor_Wood_00 (31)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &5139961761523115692
@@ -5526,7 +5526,7 @@ GameObject:
   m_Name: Floor_Wood_00 (33)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &5179346910781091581
@@ -5609,7 +5609,7 @@ GameObject:
   m_Name: Floor_Wood_00 (15)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &4615063909670702699
@@ -5692,7 +5692,7 @@ GameObject:
   m_Name: Floor_Wood_00 (38)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &4640441973360054196
@@ -5775,7 +5775,7 @@ GameObject:
   m_Name: Ceiling_Wood_00 (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &6032915016464609229
@@ -5858,7 +5858,7 @@ GameObject:
   m_Name: Windows_Frame_Wood_00 (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &739747254351306594
@@ -5941,7 +5941,7 @@ GameObject:
   m_Name: Building_Column_00_Foundation 1 (20)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &2535054538143783010
@@ -6024,7 +6024,7 @@ GameObject:
   m_Name: Building_Wall_05_Foundation 1 (5)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &3138475631754104994
@@ -6107,7 +6107,7 @@ GameObject:
   m_Name: Floor_Wood_00 (24)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &4717137025867571312
@@ -6190,7 +6190,7 @@ GameObject:
   m_Name: Floor_Wood_00 (29)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &4742051848766477764
@@ -6273,7 +6273,7 @@ GameObject:
   m_Name: Floor_Wood_00 (23)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &4740670064473506920
@@ -6356,7 +6356,7 @@ GameObject:
   m_Name: Roof_00 (5)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &6415539891437599385
@@ -6439,7 +6439,7 @@ GameObject:
   m_Name: Windows_Glass_11 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &6489595176149947608
@@ -6522,7 +6522,7 @@ GameObject:
   m_Name: Windows_Glass_03 (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &7827065221372973995
@@ -6605,7 +6605,7 @@ GameObject:
   m_Name: Foundations_1M_Concrete_02 (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &5821606891678274581
@@ -6688,7 +6688,7 @@ GameObject:
   m_Name: Building_Wall_07_Foundation 1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &574690210495563410
@@ -6771,7 +6771,7 @@ GameObject:
   m_Name: Ceiling_Wood_00 (21)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &8054708205995604604
@@ -6854,7 +6854,7 @@ GameObject:
   m_Name: Building_Column_03_Roof 1 (21)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &3624243494534792640
@@ -6935,7 +6935,7 @@ GameObject:
   m_Name: Lamp_00_On (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &2436797276817660640
@@ -6969,7 +6969,7 @@ GameObject:
   m_Name: Building_Wall_01_Foundation 1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &4707955815876803576
@@ -7052,7 +7052,7 @@ GameObject:
   m_Name: Props_00_Lamp_00
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &4173849443657488747
@@ -7136,7 +7136,7 @@ GameObject:
   m_Name: Floor_Wood_00 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &8673163047845112464
@@ -7219,7 +7219,7 @@ GameObject:
   m_Name: Floor_Wood_00
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &8673163047916637355
@@ -7302,7 +7302,7 @@ GameObject:
   m_Name: Floor_Wood_00 (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &8751201515942370207
@@ -7385,7 +7385,7 @@ GameObject:
   m_Name: Windows_Glass_04 (6)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &1301190896066831025
@@ -7468,7 +7468,7 @@ GameObject:
   m_Name: Floor_Wood_00 (8)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &8831279828677174986
@@ -7551,7 +7551,7 @@ GameObject:
   m_Name: Windows_Glass_08 (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &6008066523995152452
@@ -7634,7 +7634,7 @@ GameObject:
   m_Name: Building_Column_00_Foundation 1 (14)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &1816329329978903964
@@ -7717,7 +7717,7 @@ GameObject:
   m_Name: Wall_Concrete_Detail_03 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &7189797359983336324
@@ -7800,7 +7800,7 @@ GameObject:
   m_Name: Building_Column_03_Roof 1 (6)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &3788875598176877242
@@ -7883,7 +7883,7 @@ GameObject:
   m_Name: Windows_Wood_00
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &4099497658975665030
@@ -7966,7 +7966,7 @@ GameObject:
   m_Name: Windows_Glass_04 (7)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &2028255406638873733
@@ -8049,7 +8049,7 @@ GameObject:
   m_Name: Roof_03 (13)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &6166672342233021981
@@ -8132,7 +8132,7 @@ GameObject:
   m_Name: Wall_Concrete_Detail_02 (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &3439166825133346668
@@ -8215,7 +8215,7 @@ GameObject:
   m_Name: Ceiling_Wood_00 (14)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &7397438453071518817
@@ -8298,7 +8298,7 @@ GameObject:
   m_Name: Windows_Glass_03 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &7388407122115105579
@@ -8379,7 +8379,7 @@ GameObject:
   m_Name: Door_00_Dynamic
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &3055192662277935119
@@ -8414,7 +8414,7 @@ GameObject:
   m_Name: Windows_Frame_Wood_00 (23)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &4459692038625039868
@@ -8497,7 +8497,7 @@ GameObject:
   m_Name: Windows_Frame_Wood_00
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &4420121532803445614
@@ -8580,7 +8580,7 @@ GameObject:
   m_Name: Wall_Concrete_Detail_02 (6)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &3040616429733944661
@@ -8663,7 +8663,7 @@ GameObject:
   m_Name: Foundations_1M_Concrete_01 (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &8067282664866570867
@@ -8746,7 +8746,7 @@ GameObject:
   m_Name: Foundations_1M_Concrete_02 (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &6713253897223596606
@@ -8829,7 +8829,7 @@ GameObject:
   m_Name: Windows_Glass_04 (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &1846102370638466476
@@ -8912,7 +8912,7 @@ GameObject:
   m_Name: Windows_Glass_03 (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &7115219488113488729
@@ -8995,7 +8995,7 @@ GameObject:
   m_Name: Foundations_1M_Concrete_01 (11)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &7903565382738797875
@@ -9078,7 +9078,7 @@ GameObject:
   m_Name: Wall_Concrete_Detail_02 (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &3008855030426497368
@@ -9161,7 +9161,7 @@ GameObject:
   m_Name: Foundations_1M_Concrete_01 (5)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &7921298561326489914
@@ -9244,7 +9244,7 @@ GameObject:
   m_Name: Windows_Glass_00 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &8292986119564849142
@@ -9328,7 +9328,7 @@ GameObject:
   m_Name: Door_Frame_00
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &2046524404938834027
@@ -9427,7 +9427,7 @@ GameObject:
   m_Name: Building_Column_00_Foundation 1 (8)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &1162829571672487993
@@ -9510,7 +9510,7 @@ GameObject:
   m_Name: Building_Column_00_Foundation 1 (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &1172465554461566190
@@ -9593,7 +9593,7 @@ GameObject:
   m_Name: Wall_Concrete_Detail_03 (7)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &8375604906994635733
@@ -9676,7 +9676,7 @@ GameObject:
   m_Name: Building_Column_03_Roof 1 (14)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &2571064620044160226
@@ -9759,7 +9759,7 @@ GameObject:
   m_Name: Roof_01 (6)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &5019140178442691904
@@ -9842,7 +9842,7 @@ GameObject:
   m_Name: Building_Column_03_Roof 1 (19)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &2558614482128976803
@@ -9925,7 +9925,7 @@ GameObject:
   m_Name: Windows_Glass_03
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &9069151122159285494
@@ -10009,7 +10009,7 @@ GameObject:
   m_Name: Door_Frame_00
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &128845970677441755
@@ -10108,7 +10108,7 @@ GameObject:
   m_Name: Building_Wall_05_Foundation 1 (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &404504105785086149
@@ -10191,7 +10191,7 @@ GameObject:
   m_Name: Windows_Glass_00 (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &8031265789447603447
@@ -10274,7 +10274,7 @@ GameObject:
   m_Name: Windows_Glass_08 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &5081739487493771654
@@ -10357,7 +10357,7 @@ GameObject:
   m_Name: Windows_Frame_Wood_00 (5)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &2514258609226969152
@@ -10440,7 +10440,7 @@ GameObject:
   m_Name: Ceiling_Wood_00 (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &8892675420548130865
@@ -10523,7 +10523,7 @@ GameObject:
   m_Name: Windows_Frame_Wood_00 (7)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &2474811004137910259
@@ -10606,7 +10606,7 @@ GameObject:
   m_Name: Building_Column_00_Foundation 1 (17)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &792859808272886572
@@ -10690,7 +10690,7 @@ GameObject:
   m_Name: Foundations_1M_Concrete_02
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &4921592037809703536
@@ -10784,7 +10784,7 @@ GameObject:
   m_Name: Door_00_Dynamic (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &4019830085623280831
@@ -10819,7 +10819,7 @@ GameObject:
   m_Name: Props_00_Lamp_Glass_00
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &4531747798909527003
@@ -10902,7 +10902,7 @@ GameObject:
   m_Name: Building_Column_00_Foundation 1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &542586103167265011
@@ -10985,7 +10985,7 @@ GameObject:
   m_Name: Roof_03 (8)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &4972772069215283196
@@ -11068,7 +11068,7 @@ GameObject:
   m_Name: Ceiling_Concrete_01 (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &7088619483493213219
@@ -11151,7 +11151,7 @@ GameObject:
   m_Name: Wall_Concrete_Detail_03 (6)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &9024962095844824253
@@ -11234,7 +11234,7 @@ GameObject:
   m_Name: Floor_Wood_00 (34)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &7283894222190019867
@@ -11317,7 +11317,7 @@ GameObject:
   m_Name: Windows_Frame_Wood_00 (18)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &3429102734630461230
@@ -11400,7 +11400,7 @@ GameObject:
   m_Name: Foundations_1M_Concrete_01 (17)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &8927382834698355507
@@ -11483,7 +11483,7 @@ GameObject:
   m_Name: Floor_Wood_00 (43)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &7312079833759364760
@@ -11566,7 +11566,7 @@ GameObject:
   m_Name: Ceiling_Concrete_01
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &7059643254088432441
@@ -11649,7 +11649,7 @@ GameObject:
   m_Name: Roof_00
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &8978274246843848181
@@ -11732,7 +11732,7 @@ GameObject:
   m_Name: Building_Column_00_Foundation 1 (18)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &337828351582458373
@@ -11815,7 +11815,7 @@ GameObject:
   m_Name: Building_Column_00_Foundation 1 (11)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &314182409454048921
@@ -11898,7 +11898,7 @@ GameObject:
   m_Name: Ceiling_Wood_00
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &8324024610522472707
@@ -11981,7 +11981,7 @@ GameObject:
   m_Name: Building_Column_03_Roof 1 (13)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &3427712423808783679
@@ -12064,7 +12064,7 @@ GameObject:
   m_Name: Foundations_1M_Concrete_01 (6)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &9208833993468613900
@@ -12147,7 +12147,7 @@ GameObject:
   m_Name: Building_Wall_01_Foundation 1 (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &6893722120171294658
@@ -12230,7 +12230,7 @@ GameObject:
   m_Name: Roof_03 (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &4630011350257332884
@@ -15438,7 +15438,7 @@ GameObject:
   m_Name: Roof_02 (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &7622918672754321848
@@ -15521,7 +15521,7 @@ GameObject:
   m_Name: Ceiling_Wood_00 (12)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &8174336127055832628
@@ -15604,7 +15604,7 @@ GameObject:
   m_Name: Windows_Glass_11
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &8917951542871532520
@@ -15687,7 +15687,7 @@ GameObject:
   m_Name: Windows_Wood_01
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &2393804773507167044
@@ -15770,7 +15770,7 @@ GameObject:
   m_Name: Roof_01 (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &5402974138443124680
@@ -15853,7 +15853,7 @@ GameObject:
   m_Name: Floor_Wood_00 (20)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &7172055926489738589
@@ -15936,7 +15936,7 @@ GameObject:
   m_Name: Floor_Wood_00 (40)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &2047868343177631943
@@ -16019,7 +16019,7 @@ GameObject:
   m_Name: Floor_Wood_00 (32)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &2042727574179880104
@@ -16102,7 +16102,7 @@ GameObject:
   m_Name: Floor_Wood_00 (36)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &2102000862512600255
@@ -16185,7 +16185,7 @@ GameObject:
   m_Name: Roof_03 (6)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &4371954397942992937
@@ -16268,7 +16268,7 @@ GameObject:
   m_Name: Roof_00 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &442308934449930325
@@ -16351,7 +16351,7 @@ GameObject:
   m_Name: Building_Column_03_Roof 1 (8)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &5871856123167553023
@@ -16434,7 +16434,7 @@ GameObject:
   m_Name: Floor_Wood_00 (7)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &2175769500779135163
@@ -16517,7 +16517,7 @@ GameObject:
   m_Name: Windows_Glass_04 (5)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &8532231455777050305
@@ -16600,7 +16600,7 @@ GameObject:
   m_Name: Roof_02 (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &1487639073228509490
@@ -16683,7 +16683,7 @@ GameObject:
   m_Name: Building_Column_03_Roof 1 (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &5815868431099034333
@@ -16766,7 +16766,7 @@ GameObject:
   m_Name: Building_Column_00_Foundation 1 (19)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &8890276420981621719
@@ -16847,7 +16847,7 @@ GameObject:
   m_Name: Lamp_00_On (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &4993738105426417737
@@ -16879,7 +16879,7 @@ GameObject:
   m_Name: Lamp_00_On
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &4998590590252816803
@@ -16913,7 +16913,7 @@ GameObject:
   m_Name: Building_Wall_05_Foundation 1 (6)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &8102262766180430808
@@ -16996,7 +16996,7 @@ GameObject:
   m_Name: Props_00_Lamp_00
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &6732900801447435202
@@ -17080,7 +17080,7 @@ GameObject:
   m_Name: Floor_Wood_00 (17)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &1973321142387684087
@@ -17163,7 +17163,7 @@ GameObject:
   m_Name: Props_00_Lamp_00
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &6729447025685862952
@@ -17247,7 +17247,7 @@ GameObject:
   m_Name: Windows_Glass_04
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &8970301863654904360
@@ -17330,7 +17330,7 @@ GameObject:
   m_Name: Ceiling_Wood_00 (18)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &534676409159311564
@@ -17413,7 +17413,7 @@ GameObject:
   m_Name: Ceiling_Wood_00 (15)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &551360137697857806
@@ -17496,7 +17496,7 @@ GameObject:
   m_Name: Windows_Frame_Wood_00 (11)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &6776428514020020946
@@ -17579,7 +17579,7 @@ GameObject:
   m_Name: Floor_Wood_00 (5)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &1510261170242995832
@@ -17662,7 +17662,7 @@ GameObject:
   m_Name: Floor_Wood_00 (21)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &1515492562110138217
@@ -17745,7 +17745,7 @@ GameObject:
   m_Name: Floor_Wood_00 (16)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &1672169953090238223
@@ -17828,7 +17828,7 @@ GameObject:
   m_Name: Windows_Glass_03 (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &511448713140147221
@@ -17911,7 +17911,7 @@ GameObject:
   m_Name: Ceiling_Wood_00 (17)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &349223863541318295
@@ -17994,7 +17994,7 @@ GameObject:
   m_Name: Windows_Glass_05 (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &3078518241589935131
@@ -18077,7 +18077,7 @@ GameObject:
   m_Name: Roof_03 (12)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &3533363299682445892
@@ -18160,7 +18160,7 @@ GameObject:
   m_Name: Building_Column_03_Roof 1 (11)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &6887019052305475238
@@ -18243,7 +18243,7 @@ GameObject:
   m_Name: Building_Column_00_Foundation 1 (15)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &8258505747873570752
@@ -18326,7 +18326,7 @@ GameObject:
   m_Name: Roof_00 (6)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &726368491895336203
@@ -18409,7 +18409,7 @@ GameObject:
   m_Name: Building_Column_00_Foundation 1 (12)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &8194019263124962608
@@ -18492,7 +18492,7 @@ GameObject:
   m_Name: Building_Column_00_Foundation 1 (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &8147152971698012912
@@ -18575,7 +18575,7 @@ GameObject:
   m_Name: Windows_Frame_Wood_00 (10)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &6483345317791807255
@@ -18658,7 +18658,7 @@ GameObject:
   m_Name: Windows_Glass_04 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &8880962904261233456
@@ -18741,7 +18741,7 @@ GameObject:
   m_Name: Building_Wall_01_Foundation 1 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &3314591336332706651
@@ -18824,7 +18824,7 @@ GameObject:
   m_Name: Wall_Concrete_Detail_02
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &6239199030826018763
@@ -18907,7 +18907,7 @@ GameObject:
   m_Name: Floor_Wood_00 (35)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &875840571850614554
@@ -18990,7 +18990,7 @@ GameObject:
   m_Name: Windows_Glass_06 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &1972659019499974699
@@ -19073,7 +19073,7 @@ GameObject:
   m_Name: Building_Column_03_Roof 1 (5)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &4845624005277741148
@@ -19156,7 +19156,7 @@ GameObject:
   m_Name: Foundations_1M_Concrete_01
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &1407104538731516768
@@ -19239,7 +19239,7 @@ GameObject:
   m_Name: Foundations_1M_Concrete_01 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &1407104538315567125
@@ -19322,7 +19322,7 @@ GameObject:
   m_Name: Foundations_1M_Concrete_01 (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &1407104537571485638
@@ -19405,7 +19405,7 @@ GameObject:
   m_Name: Ceiling_Wood_00 (8)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &2196045549566950789
@@ -19488,7 +19488,7 @@ GameObject:
   m_Name: Floor_Wood_00 (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &1023558909886515869
@@ -19571,7 +19571,7 @@ GameObject:
   m_Name: Windows_Glass_01 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &7106259691494542549
@@ -19654,7 +19654,7 @@ GameObject:
   m_Name: Foundations_1M_Concrete_01 (9)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &1184222283716018161
@@ -19737,7 +19737,7 @@ GameObject:
   m_Name: Ceiling_Concrete_01 (5)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &694579184730583099
@@ -19820,7 +19820,7 @@ GameObject:
   m_Name: Roof_02 (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &343070277567635218
@@ -19903,7 +19903,7 @@ GameObject:
   m_Name: Ceiling_Wood_00 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &1956656312804259072
@@ -19986,7 +19986,7 @@ GameObject:
   m_Name: Windows_Glass_08 (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &2383132880210080224
@@ -20069,7 +20069,7 @@ GameObject:
   m_Name: Roof_01 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &2308700190910672412
@@ -20152,7 +20152,7 @@ GameObject:
   m_Name: Building_Wall_05_Foundation 1 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &7119358473903861012
@@ -20233,7 +20233,7 @@ GameObject:
   m_Name: Lamp_00_On (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &6185139644848209502
@@ -20267,7 +20267,7 @@ GameObject:
   m_Name: Windows_Glass_08 (6)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &2484932850803890537
@@ -20350,7 +20350,7 @@ GameObject:
   m_Name: Foundations_1M_Concrete_01 (12)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &1540702869439776749
@@ -20433,7 +20433,7 @@ GameObject:
   m_Name: Props_00_Lamp_00
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &5614656670688706005
@@ -20517,7 +20517,7 @@ GameObject:
   m_Name: Windows_Frame_Wood_00 (27)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &5673620637927703674
@@ -20600,7 +20600,7 @@ GameObject:
   m_Name: Building_Column_00_Foundation 1 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &7439746616183486250
@@ -20683,7 +20683,7 @@ GameObject:
   m_Name: Windows_Glass_04 (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &7879878484843877724
@@ -20766,7 +20766,7 @@ GameObject:
   m_Name: Windows_Glass_16
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &4922475597857365639
@@ -20849,7 +20849,7 @@ GameObject:
   m_Name: Building_Wall_06_Foundation 1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &3691687272259670007
@@ -20932,7 +20932,7 @@ GameObject:
   m_Name: Windows_Frame_Wood_00 (14)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &5579704095735604667
@@ -21015,7 +21015,7 @@ GameObject:
   m_Name: Roof_00 (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &1971633610407591728
@@ -21098,7 +21098,7 @@ GameObject:
   m_Name: Floor_Wood_00 (42)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &82319424500750702
@@ -21181,7 +21181,7 @@ GameObject:
   m_Name: Wall_Concrete_Detail_02 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &6623717225772586500
@@ -21264,7 +21264,7 @@ GameObject:
   m_Name: Windows_Frame_Wood_00 (19)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &5451204983219035134
@@ -21347,7 +21347,7 @@ GameObject:
   m_Name: Windows_Frame_Wood_00 (20)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &5251396156068310712
@@ -21430,7 +21430,7 @@ GameObject:
   m_Name: Building_Column_00_Foundation 1 (16)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &6862028738073585061
@@ -21513,7 +21513,7 @@ GameObject:
   m_Name: Floor_Wood_00 (28)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &4406326824058487113
@@ -21596,7 +21596,7 @@ GameObject:
   m_Name: Foundations_1M_Concrete_01 (10)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &2555335772121207559
@@ -21679,7 +21679,7 @@ GameObject:
   m_Name: Windows_Frame_Wood_00 (15)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &8581580338111015636
@@ -21762,7 +21762,7 @@ GameObject:
   m_Name: Windows_Wood_00 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &8175794929133339900
@@ -21845,7 +21845,7 @@ GameObject:
   m_Name: Floor_Wood_00 (25)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &4489028458805217925
@@ -21928,7 +21928,7 @@ GameObject:
   m_Name: Building_Column_03_Roof 1 (17)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &8098958223150141348
@@ -22011,7 +22011,7 @@ GameObject:
   m_Name: Wall_Concrete_Detail_03 (5)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &2874186131919026472
@@ -22095,7 +22095,7 @@ GameObject:
   m_Name: Door_00
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 1
   m_IsActive: 1
 --- !u!4 &5571351911711552328
@@ -22194,7 +22194,7 @@ GameObject:
   m_Name: Floor_Wood_00 (10)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &4039500472294769946
@@ -22277,7 +22277,7 @@ GameObject:
   m_Name: Windows_Frame_Wood_00 (25)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &8238698476137475246
@@ -22360,7 +22360,7 @@ GameObject:
   m_Name: Windows_Glass_08
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &1190163960740353631
@@ -22443,7 +22443,7 @@ GameObject:
   m_Name: Windows_Glass_04 (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &5873906156217553591
@@ -22526,7 +22526,7 @@ GameObject:
   m_Name: Foundations_1M_Concrete_01 (18)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &2834088423776154394
@@ -22609,7 +22609,7 @@ GameObject:
   m_Name: Ceiling_Wood_00 (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &3006397150229018217
@@ -22692,7 +22692,7 @@ GameObject:
   m_Name: Building_Column_00_Foundation 1 (9)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &6419217874257012327
@@ -22775,7 +22775,7 @@ GameObject:
   m_Name: Wall_Concrete_Detail_03 (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &2499368824519733197
@@ -22858,7 +22858,7 @@ GameObject:
   m_Name: Ceiling_Wood_00 (5)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &3015860337916025590
@@ -22941,7 +22941,7 @@ GameObject:
   m_Name: Building_Wall_07_Foundation 1 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &4655925551351842897
@@ -23024,7 +23024,7 @@ GameObject:
   m_Name: Ceiling_Wood_00 (9)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &2829441249777928559
@@ -23107,7 +23107,7 @@ GameObject:
   m_Name: Building_Wall_05_Foundation 1 (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &6912033822567937936
@@ -23190,7 +23190,7 @@ GameObject:
   m_Name: Foundations_1M_Concrete_01 (7)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &3047854891028737620
@@ -23273,7 +23273,7 @@ GameObject:
   m_Name: Building_Column_00_Foundation 1 (7)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &6245297624740547821
@@ -23356,7 +23356,7 @@ GameObject:
   m_Name: Building_Column_03_Roof 1 (20)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &8809261833438220509
@@ -23439,7 +23439,7 @@ GameObject:
   m_Name: Roof_03 (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &1503871902297162610
@@ -23522,7 +23522,7 @@ GameObject:
   m_Name: Ceiling_Wood_00 (11)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &2769978784426408525
@@ -23605,7 +23605,7 @@ GameObject:
   m_Name: Building_Column_00_Foundation 1 (10)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &6206633709219460471
@@ -23688,7 +23688,7 @@ GameObject:
   m_Name: Building_Column_03_Roof 1 (9)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &8829611293625032663
@@ -23771,7 +23771,7 @@ GameObject:
   m_Name: Foundations_1M_Concrete_01 (8)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &3124044571230946418
@@ -23854,7 +23854,7 @@ GameObject:
   m_Name: Building_Column_03_Roof 1 (10)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &8787642148604707903
@@ -23937,7 +23937,7 @@ GameObject:
   m_Name: Building_Column_03_Roof 1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &8776666750049673662
@@ -24020,7 +24020,7 @@ GameObject:
   m_Name: Windows_Wood_01 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &8410556903106063311
@@ -24103,7 +24103,7 @@ GameObject:
   m_Name: Floor_Wood_00 (37)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &3988579925172664031
@@ -24186,7 +24186,7 @@ GameObject:
   m_Name: Foundations_1M_Concrete_01 (13)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &3366278661068760803
@@ -24269,7 +24269,7 @@ GameObject:
   m_Name: Foundations_1M_Concrete_01 (19)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &3380654565222654216
@@ -24352,7 +24352,7 @@ GameObject:
   m_Name: Floor_Wood_00 (14)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &3480820356306260785
@@ -24435,7 +24435,7 @@ GameObject:
   m_Name: Roof_03
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &1237187813953687240
@@ -24518,7 +24518,7 @@ GameObject:
   m_Name: Building_Column_00_Foundation 1 (21)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &5917655353348121420
@@ -24601,7 +24601,7 @@ GameObject:
   m_Name: Roof_01 (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &1947270488951253582
@@ -24684,7 +24684,7 @@ GameObject:
   m_Name: Foundations_1M_Concrete_01 (15)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &3300091514791588940
@@ -24767,7 +24767,7 @@ GameObject:
   m_Name: Props_00_Lamp_Glass_00
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &7595043256228496984
@@ -24850,7 +24850,7 @@ GameObject:
   m_Name: Props_00_Lamp_Glass_00
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &7598943012824991666
@@ -24933,7 +24933,7 @@ GameObject:
   m_Name: Wall_Concrete_Detail_02 (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &7568820477397174439
@@ -25016,7 +25016,7 @@ GameObject:
   m_Name: Building_Column_00_Foundation 1 (13)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &5774097869381099913
@@ -25099,7 +25099,7 @@ GameObject:
   m_Name: Building_Column_03_Roof 1 (16)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &8995358412097118969
@@ -25182,7 +25182,7 @@ GameObject:
   m_Name: Roof_02 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &2848107766556042544
@@ -25265,7 +25265,7 @@ GameObject:
   m_Name: Windows_Frame_Wood_00 (9)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &7377488031407210536
@@ -25348,7 +25348,7 @@ GameObject:
   m_Name: Foundations_1M_Concrete_01 (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &3727768321623045734
@@ -25431,7 +25431,7 @@ GameObject:
   m_Name: Ceiling_Wood_00 (16)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &4502360180290787137
@@ -25514,7 +25514,7 @@ GameObject:
   m_Name: Floor_Wood_00 (11)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &3272453919330903016
@@ -25597,7 +25597,7 @@ GameObject:
   m_Name: Windows_Frame_Wood_00 (17)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &7304280595738718281
@@ -25680,7 +25680,7 @@ GameObject:
   m_Name: Windows_Glass_01 (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &4907043593650388100
@@ -25763,7 +25763,7 @@ GameObject:
   m_Name: Building_Column_00_Foundation 1 (6)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &5439824034285797864
@@ -25846,7 +25846,7 @@ GameObject:
   m_Name: Foundations_1M_Concrete_01 (16)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &3913518962605666293
@@ -25929,7 +25929,7 @@ GameObject:
   m_Name: Windows_Frame_Wood_00 (6)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &7191686301996528885
@@ -26012,7 +26012,7 @@ GameObject:
   m_Name: Roof_01 (5)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &14777102373471501
@@ -26094,7 +26094,7 @@ GameObject:
   m_Name: BoxColliderHolder
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &8540182446701812687
@@ -26140,7 +26140,7 @@ GameObject:
   m_Name: Windows_Frame_Wood_00 (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &6942400112971590861
@@ -26223,7 +26223,7 @@ GameObject:
   m_Name: Wall_Concrete_Detail_03
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &3682513512570163412
@@ -26306,7 +26306,7 @@ GameObject:
   m_Name: Building_Column_03_Roof 1 (7)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &7739520609299485388
@@ -26389,7 +26389,7 @@ GameObject:
   m_Name: Foundations_1M_Concrete_02 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &680453993319028080
@@ -26473,7 +26473,7 @@ GameObject:
   m_Name: Door_00
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 1
   m_IsActive: 1
 --- !u!4 &5836133690504550392
@@ -26572,7 +26572,7 @@ GameObject:
   m_Name: Windows_Glass_08 (7)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &894401261643741139
@@ -26655,7 +26655,7 @@ GameObject:
   m_Name: Building_Column_03_Roof 1 (12)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &7682283702474147858
@@ -26738,7 +26738,7 @@ GameObject:
   m_Name: Building_Column_03_Roof 1 (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &7589020498095679250
@@ -26821,7 +26821,7 @@ GameObject:
   m_Name: Ceiling_Wood_00 (19)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &3775186490920794206
@@ -26904,7 +26904,7 @@ GameObject:
   m_Name: Building_Wall_11_Portal 1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &3656952874375790347
@@ -26987,7 +26987,7 @@ GameObject:
   m_Name: Windows_Glass_00 (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &2354006889027013612
@@ -27070,7 +27070,7 @@ GameObject:
   m_Name: Building_Wall_06_Foundation 1 (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &1569327951315832083
@@ -27153,7 +27153,7 @@ GameObject:
   m_Name: Building_Wall_06_Foundation 1 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &1634586258977643224
@@ -27236,7 +27236,7 @@ GameObject:
   m_Name: Props_00_Lamp_Glass_00
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &8786394835893625253
@@ -27319,7 +27319,7 @@ GameObject:
   m_Name: Foundations_1M_Concrete_01 (21)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &4443499085100575951
@@ -27402,7 +27402,7 @@ GameObject:
   m_Name: Windows_Glass_08 (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &759126613610429911
@@ -27485,7 +27485,7 @@ GameObject:
   m_Name: Windows_Frame_Wood_00 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &7602979502787051116
@@ -27916,7 +27916,7 @@ GameObject:
   m_Name: Windows_Frame_Wood_00 (16)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &7591207050105915862
@@ -27999,7 +27999,7 @@ GameObject:
   m_Name: Windows_Glass_00
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &2572768506247670367
