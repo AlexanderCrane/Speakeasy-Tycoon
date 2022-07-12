@@ -9,6 +9,8 @@ TagManager:
   - Civilian
   - PoliceSpawner
   - PoliceSpawnLocation
+  - MoneySound
+  - PoliceSound
   layers:
   - Default
   - TransparentFX

@@ -18,6 +18,7 @@ public class BuildingProperties : MonoBehaviour
     public BuildingState buildingState = BuildingState.unpurchased;
     public bool active = false;
     public GameObject canvas;
+    public AudioSource moneySound;
     private float customerChanceOfEntering;
 
     // These should be displayed in building UI
@@ -31,12 +32,13 @@ public class BuildingProperties : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        moneySound = GameObject.FindGameObjectWithTag("MoneySound").GetComponent<AudioSource>();
+
         // entranceTrigger.gameObject.SetActive(false);
         customerChanceOfEntering = 100f - (drinkPrice-9f);
         resourceManager = GameObject.Find("ResourceManager").GetComponent<ResourceManagement>();
 
         canvas.SetActive(false);
-
     }
 
     public void ChangeType()
@@ -96,6 +98,7 @@ public class BuildingProperties : MonoBehaviour
             {
                 if(alcoholStores > 0)
                 {
+                    moneySound.Play();
                     alcoholStores--;
                     moneyMadeSoFar += drinkPrice;
                     canvas.SetActive(true);
@@ -207,8 +210,7 @@ public class BuildingProperties : MonoBehaviour
 
     private IEnumerator waitToDisableCanvas()
     {
-        yield return new WaitForSeconds(2f);
+        yield return new WaitForSeconds(3f);
             canvas.SetActive(false);
     }
-
 }

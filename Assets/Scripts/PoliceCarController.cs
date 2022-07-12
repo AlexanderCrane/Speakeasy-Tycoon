@@ -6,14 +6,17 @@ using UnityEngine.AI;
 public class PoliceCarController : MonoBehaviour
 {
     public Transform targetDestination;
+    private Transform storedDestination;
     public GameObject canvas;
     public Collider targetCollider;
     private NavMeshAgent agent;
     private PoliceCarSpawner policeCarSpawner;
+    public AudioSource raidSound;
     
     // Start is called before the first frame update
     void Start()
     {
+        raidSound = GameObject.FindGameObjectWithTag("PoliceSound").GetComponent<AudioSource>();
         canvas.SetActive(false); 
         agent = GetComponent<NavMeshAgent>();
         agent.destination = targetDestination.position; 
@@ -44,6 +47,9 @@ public class PoliceCarController : MonoBehaviour
                     buildingProperties.alcoholStores = 0;
                     canvas.SetActive(true);
                     StartCoroutine(waitToDisableCanvas());
+                    // storedDestination = targetDestination;
+                    // ChangeDestination(buildingProperties.truckSpawnLocation.transform);
+                    // StartCoroutine(conductRaid());
                 }
             }
         }
@@ -56,8 +62,15 @@ public class PoliceCarController : MonoBehaviour
 
     private IEnumerator waitToDisableCanvas()
     {
-        yield return new WaitForSeconds(2f);
+        yield return new WaitForSeconds(4f);
             canvas.SetActive(false);
+    }
+
+    public IEnumerator conductRaid()
+    {
+        raidSound.Play();
+        yield return new WaitForSeconds(2f);
+        agent.destination = storedDestination.transform.position;
     }
 
 }
