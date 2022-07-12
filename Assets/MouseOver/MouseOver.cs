@@ -9,10 +9,21 @@ public class MouseOver : MonoBehaviour, IPointerEnterHandler, IPointerExitHandle
     public float floatHoverHeight = 20.0f;
     Outline outline;
 
+    private PurchaseController purchaseController;
+    private BuildingUIContentController buildingUIContentController;
+
     void Start()
     {
         outline.enabled = false;
         buildingCanvas = GameObject.Find("BuildingCanvas");
+    }
+
+    void Update()
+    {
+        if (buildingUIContentController != null && purchaseController != null && purchaseController.buildingProperties == GetComponent<BuildingProperties>())
+        {
+            buildingUIContentController.fillContent(gatherContent(purchaseController.buildingProperties));
+        }
     }
 
     void IPointerEnterHandler.OnPointerEnter(UnityEngine.EventSystems.PointerEventData eventData)
@@ -33,6 +44,8 @@ public class MouseOver : MonoBehaviour, IPointerEnterHandler, IPointerExitHandle
         {
             PurchaseController purchaseController = canvasTransform.GetComponent<BuildingUICanvasController>().purchaseController;
             GameObject purchaseControllerGameObject = purchaseController.gameObject;
+            this.purchaseController = purchaseController;
+            this.buildingUIContentController = buildingUIContentController;
             purchaseController.buildingProperties = buildingProperties;
             purchaseController.hidePanel.SetActive(buildingProperties.active);
             purchaseController.reopenPanel.SetActive(!buildingProperties.active && buildingProperties.buildingState != BuildingProperties.BuildingState.unpurchased);
