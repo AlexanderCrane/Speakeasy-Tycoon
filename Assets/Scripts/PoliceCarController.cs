@@ -6,17 +6,24 @@ using UnityEngine.AI;
 public class PoliceCarController : MonoBehaviour
 {
     public Transform targetDestination;
+    public Collider targetCollider;
     private NavMeshAgent agent;
+    private PoliceCarSpawner policeCarSpawner;
     
     // Start is called before the first frame update
     void Start()
     {
         agent = GetComponent<NavMeshAgent>();
-        agent.destination = targetDestination.position; 
+        agent.destination = transform.position; 
+        policeCarSpawner = GameObject.FindGameObjectWithTag("PoliceSpawner").GetComponent<PoliceCarSpawner>();
     }
 
     public void ChangeDestination(Transform newDestination)
     {
+        if(agent == null)
+        {
+            agent = GetComponent<NavMeshAgent>();
+        }
         targetDestination = newDestination;
         agent.destination = targetDestination.position; 
     }
@@ -34,6 +41,11 @@ public class PoliceCarController : MonoBehaviour
                     buildingProperties.alcoholStores = 0;
                 }
             }
+        }
+        else if(other == targetCollider)
+        {
+            policeCarSpawner.policeCarReachedDestination();
+            // Destroy(this.gameObject);
         }
     }
 
