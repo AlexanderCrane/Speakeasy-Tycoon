@@ -11,6 +11,7 @@ TagManager:
   - PoliceSpawnLocation
   - MoneySound
   - PoliceSound
+  - PouringSound
   layers:
   - Default
   - TransparentFX

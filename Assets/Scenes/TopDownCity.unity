@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.041117445, g: 0.07249471, b: 0.12565556, a: 1}
+  m_IndirectSpecularColor: {r: 0.041120112, g: 0.07249693, b: 0.1256583, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -2213,6 +2213,7 @@ Transform:
   - {fileID: 2137302449}
   - {fileID: 715130363}
   - {fileID: 1042706651}
+  - {fileID: 1580207932}
   m_Father: {fileID: 144636523}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -5514,6 +5515,67 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 991267328111625556, guid: de7e0d81a8f61124cafea1e1308a9337, type: 3}
   m_PrefabInstance: {fileID: 675090010}
   m_PrefabAsset: {fileID: 0}
+--- !u!1001 &676799679
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 188594229}
+    m_Modifications:
+    - target: {fileID: 8068107060363040280, guid: c7296dbf57835334385114a7b976a4c6, type: 3}
+      propertyPath: m_RootOrder
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 8068107060363040280, guid: c7296dbf57835334385114a7b976a4c6, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8068107060363040280, guid: c7296dbf57835334385114a7b976a4c6, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8068107060363040280, guid: c7296dbf57835334385114a7b976a4c6, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8068107060363040280, guid: c7296dbf57835334385114a7b976a4c6, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.89239913
+      objectReference: {fileID: 0}
+    - target: {fileID: 8068107060363040280, guid: c7296dbf57835334385114a7b976a4c6, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.23911765
+      objectReference: {fileID: 0}
+    - target: {fileID: 8068107060363040280, guid: c7296dbf57835334385114a7b976a4c6, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.3696438
+      objectReference: {fileID: 0}
+    - target: {fileID: 8068107060363040280, guid: c7296dbf57835334385114a7b976a4c6, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0.09904577
+      objectReference: {fileID: 0}
+    - target: {fileID: 8068107060363040280, guid: c7296dbf57835334385114a7b976a4c6, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8068107060363040280, guid: c7296dbf57835334385114a7b976a4c6, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8068107060363040280, guid: c7296dbf57835334385114a7b976a4c6, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8068107060363040281, guid: c7296dbf57835334385114a7b976a4c6, type: 3}
+      propertyPath: m_Name
+      value: PouringSFX
+      objectReference: {fileID: 0}
+    - target: {fileID: 8068107060363040281, guid: c7296dbf57835334385114a7b976a4c6, type: 3}
+      propertyPath: m_TagString
+      value: PouringSound
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: c7296dbf57835334385114a7b976a4c6, type: 3}
 --- !u!1001 &685819038
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -13463,6 +13525,11 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.27422005, y: 1, z: 10.036566}
   m_Center: {x: 0.0041233012, y: 0.07741412, z: 5.0021105}
+--- !u!4 &1580207932 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 8068107060363040280, guid: c7296dbf57835334385114a7b976a4c6, type: 3}
+  m_PrefabInstance: {fileID: 676799679}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1582084463
 GameObject:
   m_ObjectHideFlags: 0
@@ -15605,12 +15672,14 @@ MonoBehaviour:
   buildingState: 0
   active: 0
   canvas: {fileID: 0}
+  moneySound: {fileID: 0}
   alcoholStores: 0
   numCars: 1
   numCarsBusy: 0
   alcoholProducedSoFar: 0
   moneyMadeSoFar: 0
   drinkPrice: 10
+  playableDirector: {fileID: 0}
 --- !u!1 &1925048794 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 5960043855691234435, guid: d66746384194ef74bbd10b87ee9b4771, type: 3}
