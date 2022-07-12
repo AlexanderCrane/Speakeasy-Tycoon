@@ -23,7 +23,7 @@ MonoBehaviour:
   m_MinSize: {x: 300, y: 200}
   m_MaxSize: {x: 24288, y: 16192}
   vertical: 1
-  controlID: 52564
+  controlID: 63063
 --- !u!114 &2
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -85,7 +85,7 @@ MonoBehaviour:
     m_HSlider: 0
     m_VSlider: 0
     m_IgnoreScrollWheelUntilClicked: 0
-    m_EnableMouseInput: 0
+    m_EnableMouseInput: 1
     m_EnableSliderZoomHorizontal: 0
     m_EnableSliderZoomVertical: 0
     m_UniformScale: 1
@@ -140,7 +140,7 @@ MonoBehaviour:
   m_MinSize: {x: 300, y: 200}
   m_MaxSize: {x: 24288, y: 16192}
   vertical: 0
-  controlID: 52565
+  controlID: 63064
 --- !u!114 &4
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -165,7 +165,7 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 200}
   m_MaxSize: {x: 16192, y: 16192}
   vertical: 1
-  controlID: 52566
+  controlID: 63065
 --- !u!114 &5
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -190,7 +190,7 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 100}
   m_MaxSize: {x: 16192, y: 8096}
   vertical: 0
-  controlID: 52567
+  controlID: 63066
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -210,8 +210,8 @@ MonoBehaviour:
     y: 0
     width: 380
     height: 559
-  m_MinSize: {x: 200, y: 200}
-  m_MaxSize: {x: 4000, y: 4000}
+  m_MinSize: {x: 201, y: 221}
+  m_MaxSize: {x: 4001, y: 4021}
   m_ActualView: {fileID: 7}
   m_Panes:
   - {fileID: 7}
@@ -247,10 +247,10 @@ MonoBehaviour:
     m_SaveData: []
   m_SceneHierarchy:
     m_TreeViewState:
-      scrollPos: {x: 0, y: 555}
+      scrollPos: {x: 0, y: 611}
       m_SelectedIDs: 
       m_LastClickedID: 0
-      m_ExpandedIDs: 2c40e9ff7840e9ffe642e9ff08f9eaff18f9eaff8c05edff327eefffea7eefff367fefff9a81efffd637f1ffe037f1ff8e3df1ffc69cf7ffd49cf7ff38bdf7ffecbdf7ff3abef7ff9ec0f7ff2832f8ff3232f8ff1a48f9ffb8e5fcffc8e5fcff2661fdff5e6efdffce93fdff32bbfdff82bbfdffd0bdfdff9803feffc642feff5643feff6243feffa86cfeffd0f0feffe0f0feffd20affff20d2ffff34fbffff8a5c0000ac5c00004a5e0000a45e000030bf04009ac104004ac4040018c70400d0cd040080d20400dae1040080ec040000f00400aaf00400fe270d0006280d0034280d0058ad0d007cad0d0018ae0d002c93280034932800589328007c7d3100b4f53100
+      m_ExpandedIDs: 4272e8ff2c40e9ff7840e9ffe642e9ff08f9eaff18f9eaff8c05edff327eefffea7eefff367fefff9a81efffd637f1ffe037f1ff8e3df1ffc69cf7ffd49cf7ff38bdf7ffecbdf7ff3abef7ff9ec0f7ff2832f8ff3232f8ff1a48f9ffb8e5fcffc8e5fcff2661fdff5e6efdffce93fdff32bbfdff82bbfdffd0bdfdff9803feffc642feff5643feff6243feffa86cfeffd0f0feffe0f0feffd20affff20d2ffff34fbffff8a5c0000ac5c00004a5e0000a45e000030bf04009ac104004ac4040018c70400d0cd040080d20400dae1040080ec040000f00400aaf00400fe270d0006280d0034280d0058ad0d007cad0d0018ae0d002c93280034932800589328007c7d310004993100f29c3100869f3100b4f53100f0583200e86c3200
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -528,9 +528,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 64.97185, y: 50.540947, z: -65.934494}
+    m_Target: {x: 22.188696, y: 5.366062, z: -28.254112}
     speed: 2
-    m_Value: {x: 64.97185, y: 50.540947, z: -65.934494}
+    m_Value: {x: 22.188696, y: 5.366062, z: -28.254112}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -577,9 +577,9 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: -0.19796708, y: 0.6059912, z: -0.15913485, w: -0.7538392}
+    m_Target: {x: 0.42161623, y: 0.3628343, z: -0.18904902, w: 0.80924517}
     speed: 2
-    m_Value: {x: -0.19796574, y: 0.6059871, z: -0.15913376, w: -0.75383407}
+    m_Value: {x: 0.42161068, y: 0.36282954, z: -0.18904655, w: 0.80923456}
   m_Size:
     m_Target: 16.82949
     speed: 2
@@ -710,8 +710,8 @@ MonoBehaviour:
     y: 559
     width: 1532
     height: 388
-  m_MinSize: {x: 231, y: 271}
-  m_MaxSize: {x: 10001, y: 10021}
+  m_MinSize: {x: 230, y: 250}
+  m_MaxSize: {x: 10000, y: 10000}
   m_ActualView: {fileID: 13}
   m_Panes:
   - {fileID: 13}
@@ -759,21 +759,21 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Scripts
+    - Assets/Environment/Prefabs
     m_Globs: []
     m_OriginalText: 
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Scripts
+  - Assets/Environment/Prefabs
   m_LastFoldersGridSize: -1
   m_LastProjectPath: E:\Unity\Speakeasy-Tycoon
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 885}
-    m_SelectedIDs: dc980000
-    m_LastClickedID: 39132
+    scrollPos: {x: 0, y: 693}
+    m_SelectedIDs: deda0500
+    m_LastClickedID: 383710
     m_ExpandedIDs: 000000002a9800002c9800002e98000030980000329800003498000036980000389800003a980000d6980000bcd3050050d70500ced7050000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0

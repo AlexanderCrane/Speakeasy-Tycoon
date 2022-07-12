@@ -1470,6 +1470,10 @@ PrefabInstance:
       propertyPath: m_Enabled
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5942540280345464543, guid: 823af185b190b3d4bac3f3a8c3b0d481, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 3855748765840236221, guid: 823af185b190b3d4bac3f3a8c3b0d481, type: 3}
     - {fileID: 3855748765840236220, guid: 823af185b190b3d4bac3f3a8c3b0d481, type: 3}
@@ -7841,6 +7845,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3193839949886945813, guid: 1901d4ca760c1c740ab188c6f7397c1f, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5900055047388157349, guid: 1901d4ca760c1c740ab188c6f7397c1f, type: 3}
       propertyPath: m_Name
       value: Example_Building_00
@@ -10797,6 +10805,10 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4114515491158627719, guid: 2e560bc90c0621641b633a080836196e, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7923765353714320139, guid: 2e560bc90c0621641b633a080836196e, type: 3}
       propertyPath: m_Enabled
       value: 0
       objectReference: {fileID: 0}
@@ -13937,6 +13949,10 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 9095638379725649584, guid: df8390d0140ee49429390b98d6660be2, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 33416571928566155, guid: df8390d0140ee49429390b98d6660be2, type: 3}
     - {fileID: 33416571928566152, guid: df8390d0140ee49429390b98d6660be2, type: 3}
@@ -15330,6 +15346,7 @@ MonoBehaviour:
   truckSpawnLocation: {fileID: 0}
   buildingState: 0
   active: 0
+  canvas: {fileID: 0}
   alcoholStores: 0
   numCars: 1
   numCarsBusy: 0
