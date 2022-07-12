@@ -10,7 +10,7 @@ public class BuildingUICanvasController : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        GetComponent<Canvas>().worldCamera = Camera.main;
+        // GetComponent<Canvas>().worldCamera = Camera.main;
         faceCamera();
         // this.gameObject.SetActive(false);
     }
