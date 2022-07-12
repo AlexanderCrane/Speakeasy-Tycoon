@@ -105,6 +105,7 @@ public class BuildingProperties : MonoBehaviour
                     alcoholStores--;
                     moneyMadeSoFar += drinkPrice;
                     canvas.SetActive(true);
+                    canvas.GetComponent<PoliceCanvasController>().setTextDrinkSold();
                     StartCoroutine(waitToDisableCanvas());
                     resourceManager.MakeMoney(drinkPrice);
                 }
@@ -181,6 +182,9 @@ public class BuildingProperties : MonoBehaviour
         if(active)
         {
             playableDirector.Play();
+            canvas.SetActive(true);
+            canvas.GetComponent<PoliceCanvasController>().setTextAlcoholMade();
+            StartCoroutine(waitToDisableCanvas());
             alcoholStores++;
             alcoholProducedSoFar++;
         }

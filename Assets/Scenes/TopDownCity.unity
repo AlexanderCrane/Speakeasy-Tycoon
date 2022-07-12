@@ -451,6 +451,10 @@ PrefabInstance:
       propertyPath: upfrontCost
       value: 10
       objectReference: {fileID: 0}
+    - target: {fileID: 1444241092658742761, guid: df8390d0140ee49429390b98d6660be2, type: 3}
+      propertyPath: text
+      value: 
+      objectReference: {fileID: 0}
     - target: {fileID: 2984945313446872821, guid: df8390d0140ee49429390b98d6660be2, type: 3}
       propertyPath: m_Name
       value: Example_Building_02
@@ -593,6 +597,10 @@ PrefabInstance:
     - target: {fileID: 5900055047388157350, guid: 1901d4ca760c1c740ab188c6f7397c1f, type: 3}
       propertyPath: upfrontCost
       value: 60
+      objectReference: {fileID: 0}
+    - target: {fileID: 7688180916811524990, guid: 1901d4ca760c1c740ab188c6f7397c1f, type: 3}
+      propertyPath: text
+      value: 
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1901d4ca760c1c740ab188c6f7397c1f, type: 3}
@@ -13228,6 +13236,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 577400997726658761, guid: 2e560bc90c0621641b633a080836196e, type: 3}
+      propertyPath: text
+      value: 
+      objectReference: {fileID: 0}
     - target: {fileID: 1342345606966620464, guid: 2e560bc90c0621641b633a080836196e, type: 3}
       propertyPath: m_Name
       value: SampleHouse Prefab (10)
@@ -13687,6 +13699,10 @@ PrefabInstance:
     - target: {fileID: 3855748765840236161, guid: 823af185b190b3d4bac3f3a8c3b0d481, type: 3}
       propertyPath: m_IsActive
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5360033486976143804, guid: 823af185b190b3d4bac3f3a8c3b0d481, type: 3}
+      propertyPath: text
+      value: 
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 823af185b190b3d4bac3f3a8c3b0d481, type: 3}
@@ -16100,6 +16116,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 5998589831992115689, guid: fbf099d2c7df6004cb14546abb031c9c, type: 3}
+      propertyPath: text
+      value: 
+      objectReference: {fileID: 0}
     - target: {fileID: 8474288918328891788, guid: fbf099d2c7df6004cb14546abb031c9c, type: 3}
       propertyPath: rentCost
       value: 10
